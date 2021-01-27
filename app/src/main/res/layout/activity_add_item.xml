@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItemActivity"
+    android:id="@+id/addItemLayout">
+
+        <include
+            android:id="@+id/toolbar_addActivity"
+            layout="@layout/toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="601dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_addActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp">
+
+
+            <EditText
+                android:id="@+id/editText_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="124dp"
+                android:ems="10"
+                android:hint="@string/string_hint_name"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/spinner_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:entries="@array/types"
+                app:layout_constraintEnd_toEndOf="@+id/editText_name"
+                app:layout_constraintStart_toStartOf="@+id/editText_name"
+                app:layout_constraintTop_toBottomOf="@+id/editText_name" />
+
+            <EditText
+                android:id="@+id/editText_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:ems="10"
+                android:hint="@string/string_hint_location"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/spinner_type"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="@+id/spinner_type"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_type" />
+
+            <Button
+                android:id="@+id/button_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/string_button_add"
+                app:layout_constraintEnd_toEndOf="@+id/editText_location"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="@+id/editText_location"
+                app:layout_constraintTop_toBottomOf="@+id/editText_location" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

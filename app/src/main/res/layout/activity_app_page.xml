@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppPageActivity">
+<!--    android:background="@color/gray"-->
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appBar"
+        android:theme="@style/WhereTheme">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
+
+            <ImageView
+                android:layout_marginBottom="75dp"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@mipmap/ic_wallpaper"/>
+            
+            <include
+                android:id="@+id/toolbar_homePage"
+                layout="@layout/toolbar" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonTEST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="36dp"
+        android:src="@drawable/add"
+        android:layout_gravity="end|bottom"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="410dp"
+        android:layout_height="556dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

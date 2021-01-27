@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">It is Where It is</string>
+
+
+    <string name="string_button_access">GİRİŞ</string>
+    <string name="string_button_setPass">ŞİFRE BELİRLE</string>
+    <string name="string_button_add">EKLE</string>
+    <string name="string_button_delete">SİL</string>
+    <string name="string_button_update">GÜNCELLE</string>
+
+
+    <string name="string_hint_name">AD</string>
+    <string name="string_hint_location">KONUM</string>
+
+    <string name="cardview_name">AD</string>
+    <string name="cardview_type">TÜR</string>
+    <string name="cardview_location">KONUM</string>
+
+    <string-array name="types">
+        <item>ANAHTAR</item>
+        <item>BELGE</item>
+        <item>ATIŞTIRMALIK</item>
+        <item>DİĞER</item>
+    </string-array>
+
+
+    <string name="title_delete_all">HEPSİNİ SİL</string>
+    <string name="title_info">BİLGİ</string>
+
+    <string name="title_key">ANAHTAR</string>
+    <string name="title_document">BELGE</string>
+    <string name="title_snack">ATIŞTIRMALIK</string>
+    <string name="title_other">DİĞER</string>
+
+    <string name="title_add_activity">BİR EŞYA EKLE</string>
+    <string name="title_update_activity">GÜNCELLE</string>
+
+    <string name="language">DİL</string>
+
+
+    <string name="notification_title">VERİ YOK</string>
+    <string name="notification_text">Eşya bulunmamaktadır.</string>
+
+    <string name="fragment_button_access">GİRİŞ</string>
+    <string name="fragment_editText_password">ŞİFRE</string>
+
+    <string name="fragment_et_inputPassword">BİR ŞİFRE GİRİNİZ</string>
+    <string name="fragment_button_set">ŞİFREYİ BELİRLE</string>
+
+
+    <string name="title_deleteAllPasswords">ŞİFREYİ SİL</string>
+
+
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">It is Where It is</string>
+
+    <string name="string_button_access">ACCESS</string>
+    <string name="string_button_setPass">SET PASSWORD</string>
+    <string name="string_button_add">ADD</string>
+    <string name="string_button_delete">DELETE</string>
+    <string name="string_button_update">UPDATE</string>
+
+
+    <string name="string_hint_name">NAME</string>
+    <string name="string_hint_location">LOCATION</string>
+
+    <string name="cardview_name">NAME</string>
+    <string name="cardview_type">TYPE</string>
+    <string name="cardview_location">LOCATION</string>
+
+    <string-array name="types">
+        <item>KEY</item>
+        <item>DOCUMENT</item>
+        <item>SNACK</item>
+        <item>OTHER</item>
+    </string-array>
+
+
+    <string name="title_delete_all">DELETE ALL</string>
+    <string name="title_info">INFO</string>
+
+    <string name="title_key">KEY</string>
+    <string name="title_document">DOCUMENT</string>
+    <string name="title_snack">SNACK</string>
+    <string name="title_other">OTHER</string>
+
+
+    <string name="title_add_activity">ADD AN ITEM</string>
+    <string name="title_update_activity">UPDATE</string>
+
+
+    <string name="language">LANGUAGE</string>
+
+    <string name="notification_title">NO DATA</string>
+    <string name="notification_text">There is no item.</string>
+
+
+    <string name="fragment_button_access">ENTER</string>
+    <string name="fragment_editText_password">PASSWORD</string>
+
+    <string name="fragment_et_inputPassword">ENTER A PASSWORD</string>
+    <string name="fragment_button_set">SET PASSWORD</string>
+
+    <string name="title_deleteAllPasswords">DELETE PASSWORD</string>
+
+
+</resources>
